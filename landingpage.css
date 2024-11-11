@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(bliss_background.jpg);
+    background-size: cover;
+    font-family: 'poppins' sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px; 
+    color: #fdeed8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.nav-logo{
+    height:120px;
+    width: 150px;
+}
+.logo{
+    background-image:url(Bliss-removebg-preview.png);
+    background-size: cover;
+    position: linear;
+    height: 120px;
+    width: 100%;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    border: 1px solid  rgb(220, 81, 104);
+    background: transparent;
+}
+.menu a:hover::before{
+    width: 90%;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(220, 81, 104);
+
+}
+.register a:hover{
+    border: 1px solid rgb(220, 81, 104);
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 2.5em;
+}
+.h-text a{
+    text-decoration: none;
+    background: rgb(220, 81, 104);
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 5px;
+    transition: 0.5s;
+}
+.h-text a:hover{
+    border: 1px solid rgb(220, 81, 104);
+    background: transparent;
+}
